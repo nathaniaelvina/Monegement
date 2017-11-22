@@ -1,0 +1,25 @@
+﻿<ContentDialog x:ConnectionId='1'
+    x:Class="Monegement.AddWishListDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Monegement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Add Wishlist"
+    PrimaryButtonText="Add"
+    SecondaryButtonText="Cancel"
+                                                         
+                                                             >
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+
+            <Image Source="Assets/LockScreenLogo.scale-200.png" MaxWidth="150"/>
+            <Button x:ConnectionId='2' Content="Choose File" HorizontalAlignment="Center" Margin="0 10" x:Name="btnChooseFile"                            />
+            <TextBox InputScope="Number" Margin="0 10" PlaceholderText="Amount"/>
+            <TextBox Margin="0 10" PlaceholderText="Notes" AcceptsReturn="True"/>
+        </StackPanel>
+    </Grid>
+</ContentDialog>
+

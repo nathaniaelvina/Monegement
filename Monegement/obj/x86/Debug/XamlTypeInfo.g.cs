@@ -132,41 +132,47 @@ namespace Monegement.Monegement_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[16];
+            _typeNameTable = new string[19];
             _typeNameTable[0] = "Monegement.AddExpenseDialog";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.ContentDialog";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.ContentControl";
             _typeNameTable[3] = "Monegement.AddIncomeDialog";
-            _typeNameTable[4] = "CrossPieCharts.UWP.PieCharts.RichPieChart";
-            _typeNameTable[5] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[6] = "Int32";
-            _typeNameTable[7] = "System.Collections.Generic.List`1<CrossPieCharts.UWP.PieCharts.PieChartArgs>";
-            _typeNameTable[8] = "Object";
-            _typeNameTable[9] = "CrossPieCharts.UWP.PieCharts.PieChartArgs";
-            _typeNameTable[10] = "Windows.UI.Xaml.Media.SolidColorBrush";
-            _typeNameTable[11] = "Monegement.MainPage";
-            _typeNameTable[12] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[13] = "Monegement.chartPage";
-            _typeNameTable[14] = "Monegement.transactionPage";
-            _typeNameTable[15] = "Monegement.wishlistPage";
+            _typeNameTable[4] = "Monegement.AddWishListDialog";
+            _typeNameTable[5] = "CrossPieCharts.UWP.PieCharts.RichPieChart";
+            _typeNameTable[6] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[7] = "Int32";
+            _typeNameTable[8] = "System.Collections.Generic.List`1<CrossPieCharts.UWP.PieCharts.PieChartArgs>";
+            _typeNameTable[9] = "Object";
+            _typeNameTable[10] = "CrossPieCharts.UWP.PieCharts.PieChartArgs";
+            _typeNameTable[11] = "Windows.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[12] = "Monegement.MainPage";
+            _typeNameTable[13] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[14] = "Monegement.chartPage";
+            _typeNameTable[15] = "Monegement.LoginPage";
+            _typeNameTable[16] = "Monegement.SignInPage";
+            _typeNameTable[17] = "Monegement.transactionPage";
+            _typeNameTable[18] = "Monegement.wishlistPage";
 
-            _typeTable = new global::System.Type[16];
+            _typeTable = new global::System.Type[19];
             _typeTable[0] = typeof(global::Monegement.AddExpenseDialog);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.ContentDialog);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
             _typeTable[3] = typeof(global::Monegement.AddIncomeDialog);
-            _typeTable[4] = typeof(global::CrossPieCharts.UWP.PieCharts.RichPieChart);
-            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[6] = typeof(global::System.Int32);
-            _typeTable[7] = typeof(global::System.Collections.Generic.List<global::CrossPieCharts.UWP.PieCharts.PieChartArgs>);
-            _typeTable[8] = typeof(global::System.Object);
-            _typeTable[9] = typeof(global::CrossPieCharts.UWP.PieCharts.PieChartArgs);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
-            _typeTable[11] = typeof(global::Monegement.MainPage);
-            _typeTable[12] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[13] = typeof(global::Monegement.chartPage);
-            _typeTable[14] = typeof(global::Monegement.transactionPage);
-            _typeTable[15] = typeof(global::Monegement.wishlistPage);
+            _typeTable[4] = typeof(global::Monegement.AddWishListDialog);
+            _typeTable[5] = typeof(global::CrossPieCharts.UWP.PieCharts.RichPieChart);
+            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[7] = typeof(global::System.Int32);
+            _typeTable[8] = typeof(global::System.Collections.Generic.List<global::CrossPieCharts.UWP.PieCharts.PieChartArgs>);
+            _typeTable[9] = typeof(global::System.Object);
+            _typeTable[10] = typeof(global::CrossPieCharts.UWP.PieCharts.PieChartArgs);
+            _typeTable[11] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[12] = typeof(global::Monegement.MainPage);
+            _typeTable[13] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[14] = typeof(global::Monegement.chartPage);
+            _typeTable[15] = typeof(global::Monegement.LoginPage);
+            _typeTable[16] = typeof(global::Monegement.SignInPage);
+            _typeTable[17] = typeof(global::Monegement.transactionPage);
+            _typeTable[18] = typeof(global::Monegement.wishlistPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -203,14 +209,17 @@ namespace Monegement.Monegement_XamlTypeInfo
 
         private object Activate_0_AddExpenseDialog() { return new global::Monegement.AddExpenseDialog(); }
         private object Activate_3_AddIncomeDialog() { return new global::Monegement.AddIncomeDialog(); }
-        private object Activate_4_RichPieChart() { return new global::CrossPieCharts.UWP.PieCharts.RichPieChart(); }
-        private object Activate_7_List() { return new global::System.Collections.Generic.List<global::CrossPieCharts.UWP.PieCharts.PieChartArgs>(); }
-        private object Activate_9_PieChartArgs() { return new global::CrossPieCharts.UWP.PieCharts.PieChartArgs(); }
-        private object Activate_11_MainPage() { return new global::Monegement.MainPage(); }
-        private object Activate_13_chartPage() { return new global::Monegement.chartPage(); }
-        private object Activate_14_transactionPage() { return new global::Monegement.transactionPage(); }
-        private object Activate_15_wishlistPage() { return new global::Monegement.wishlistPage(); }
-        private void VectorAdd_7_List(object instance, object item)
+        private object Activate_4_AddWishListDialog() { return new global::Monegement.AddWishListDialog(); }
+        private object Activate_5_RichPieChart() { return new global::CrossPieCharts.UWP.PieCharts.RichPieChart(); }
+        private object Activate_8_List() { return new global::System.Collections.Generic.List<global::CrossPieCharts.UWP.PieCharts.PieChartArgs>(); }
+        private object Activate_10_PieChartArgs() { return new global::CrossPieCharts.UWP.PieCharts.PieChartArgs(); }
+        private object Activate_12_MainPage() { return new global::Monegement.MainPage(); }
+        private object Activate_14_chartPage() { return new global::Monegement.chartPage(); }
+        private object Activate_15_LoginPage() { return new global::Monegement.LoginPage(); }
+        private object Activate_16_SignInPage() { return new global::Monegement.SignInPage(); }
+        private object Activate_17_transactionPage() { return new global::Monegement.transactionPage(); }
+        private object Activate_18_wishlistPage() { return new global::Monegement.wishlistPage(); }
+        private void VectorAdd_8_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::CrossPieCharts.UWP.PieCharts.PieChartArgs>)instance;
             var newItem = (global::CrossPieCharts.UWP.PieCharts.PieChartArgs)item;
@@ -249,74 +258,96 @@ namespace Monegement.Monegement_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  CrossPieCharts.UWP.PieCharts.RichPieChart
+            case 4:   //  Monegement.AddWishListDialog
+                userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentDialog"));
+                userType.Activator = Activate_4_AddWishListDialog;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  CrossPieCharts.UWP.PieCharts.RichPieChart
                 userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_4_RichPieChart;
+                userType.Activator = Activate_5_RichPieChart;
                 userType.AddMemberName("Radius");
                 userType.AddMemberName("StrokeThickness");
                 userType.AddMemberName("PieChartArgsCollection");
                 xamlType = userType;
                 break;
 
-            case 5:   //  Windows.UI.Xaml.Controls.UserControl
+            case 6:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Monegement.Monegement_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  Int32
+            case 7:   //  Int32
                 xamlType = new global::Monegement.Monegement_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  System.Collections.Generic.List`1<CrossPieCharts.UWP.PieCharts.PieChartArgs>
+            case 8:   //  System.Collections.Generic.List`1<CrossPieCharts.UWP.PieCharts.PieChartArgs>
                 userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_7_List;
+                userType.CollectionAdd = VectorAdd_8_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 8:   //  Object
+            case 9:   //  Object
                 xamlType = new global::Monegement.Monegement_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  CrossPieCharts.UWP.PieCharts.PieChartArgs
+            case 10:   //  CrossPieCharts.UWP.PieCharts.PieChartArgs
                 userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_9_PieChartArgs;
+                userType.Activator = Activate_10_PieChartArgs;
                 userType.AddMemberName("Percentage");
                 userType.AddMemberName("ColorBrush");
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Media.SolidColorBrush
+            case 11:   //  Windows.UI.Xaml.Media.SolidColorBrush
                 xamlType = new global::Monegement.Monegement_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Monegement.MainPage
+            case 12:   //  Monegement.MainPage
                 userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_MainPage;
+                userType.Activator = Activate_12_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  Windows.UI.Xaml.Controls.Page
+            case 13:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Monegement.Monegement_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Monegement.chartPage
+            case 14:   //  Monegement.chartPage
                 userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_chartPage;
+                userType.Activator = Activate_14_chartPage;
+                userType.AddMemberName("PieChartCollection");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Monegement.transactionPage
+            case 15:   //  Monegement.LoginPage
                 userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_transactionPage;
+                userType.Activator = Activate_15_LoginPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  Monegement.wishlistPage
+            case 16:   //  Monegement.SignInPage
                 userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_wishlistPage;
+                userType.Activator = Activate_16_SignInPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  Monegement.transactionPage
+                userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_17_transactionPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  Monegement.wishlistPage
+                userType = new global::Monegement.Monegement_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_18_wishlistPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -375,6 +406,16 @@ namespace Monegement.Monegement_XamlTypeInfo
             var that = (global::CrossPieCharts.UWP.PieCharts.PieChartArgs)instance;
             that.ColorBrush = (global::Windows.UI.Xaml.Media.SolidColorBrush)Value;
         }
+        private object get_5_chartPage_PieChartCollection(object instance)
+        {
+            var that = (global::Monegement.chartPage)instance;
+            return that.PieChartCollection;
+        }
+        private void set_5_chartPage_PieChartCollection(object instance, object Value)
+        {
+            var that = (global::Monegement.chartPage)instance;
+            that.PieChartCollection = (global::System.Collections.Generic.List<global::CrossPieCharts.UWP.PieCharts.PieChartArgs>)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -415,6 +456,12 @@ namespace Monegement.Monegement_XamlTypeInfo
                 xamlMember = new global::Monegement.Monegement_XamlTypeInfo.XamlMember(this, "ColorBrush", "Windows.UI.Xaml.Media.SolidColorBrush");
                 xamlMember.Getter = get_4_PieChartArgs_ColorBrush;
                 xamlMember.Setter = set_4_PieChartArgs_ColorBrush;
+                break;
+            case "Monegement.chartPage.PieChartCollection":
+                userType = (global::Monegement.Monegement_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Monegement.chartPage");
+                xamlMember = new global::Monegement.Monegement_XamlTypeInfo.XamlMember(this, "PieChartCollection", "System.Collections.Generic.List`1<CrossPieCharts.UWP.PieCharts.PieChartArgs>");
+                xamlMember.Getter = get_5_chartPage_PieChartCollection;
+                xamlMember.Setter = set_5_chartPage_PieChartCollection;
                 break;
             }
             return xamlMember;

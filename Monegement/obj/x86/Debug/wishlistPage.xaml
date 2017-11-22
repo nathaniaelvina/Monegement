@@ -8,17 +8,17 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel Orientation="Vertical" >
+        <StackPanel Orientation="Vertical" Margin="20">
 
             <AppBarButton x:ConnectionId='1' Label="Add Wish List" Content="Income" Icon="Add" x:Name="btnAddWishlist"                             />
-            <Grid>
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="200"/>
-                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="200"/>
-                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Image Source="Assets/StoreLogo.png" Grid.Row="0" Grid.Column="0" Margin="10"></Image>
                 <Image Source="Assets/StoreLogo.png" Grid.Row="0" Grid.Column="1" Margin="10"></Image>

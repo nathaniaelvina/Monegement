@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="TITLE"
+    Title="Add Income"
     PrimaryButtonText="Add"
     SecondaryButtonText="Cancel"
     PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
@@ -33,7 +33,7 @@
                 </StackPanel>
             </AppBarToggleButton>
         </Grid>
-        <TextBox InputScope="Number" Margin="0 10" PlaceholderText="Amount"/>
-
+        <TextBox x:Name="txtAmount" InputScope="Number" Margin="0 10" PlaceholderText="Amount"/>
+        <TextBox x:Name="txtDescription" InputScope="Text" Margin="0 10" PlaceholderText="Description" AcceptsReturn="True" Height="60"/>
     </StackPanel>
 </ContentDialog>

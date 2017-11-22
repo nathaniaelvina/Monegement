@@ -28,8 +28,8 @@ namespace Monegement
         }
         private async void btnAddWishlist_Click(object sender, RoutedEventArgs e)
         {
-           // AddWishlistDialog addWishlist = new AddWishlistDialog();
-           // await addWishlist.ShowAsync();
+            AddWishListDialog addWishlist = new AddWishListDialog();
+            await addWishlist.ShowAsync();
 
         }
     }

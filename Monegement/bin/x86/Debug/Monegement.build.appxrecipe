@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>20f50b1f-e5ed-437c-a00a-6d12d8f266fb</PackageIdentityName>
     <PackageIdentityPublisher>CN=Nathania</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\nathania\source\repos\Monegement\Monegement\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Monegement.exe">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Monegement.exe">
       <PackagePath>entrypoint\Monegement.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathania\.nuget\packages\CrossPieCharts.UWP\1.0.2\lib\uap\CrossPieCharts.ClassLibrary.dll">
@@ -373,80 +373,80 @@
     <AppxPackagedFile Include="C:\Users\Nathania\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\fashion.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\fashion.png">
       <PackagePath>Assets\fashion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\food.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\food.png">
       <PackagePath>Assets\food.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\gift.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\gift.png">
       <PackagePath>Assets\gift.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\hospital.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\hospital.png">
       <PackagePath>Assets\hospital.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\more.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\more.png">
       <PackagePath>Assets\more.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\movie.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\movie.png">
       <PackagePath>Assets\movie.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\others.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\others.png">
       <PackagePath>Assets\others.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\salary.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\salary.png">
       <PackagePath>Assets\salary.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\shopping.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\shopping.png">
       <PackagePath>Assets\shopping.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\sports.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\sports.png">
       <PackagePath>Assets\sports.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\transportation.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\transportation.png">
       <PackagePath>Assets\transportation.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Monegement.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Monegement.xr.xml">
       <PackagePath>Monegement.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Core\Monegement.exe">
+    <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Core\Monegement.exe">
       <PackagePath>Monegement.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

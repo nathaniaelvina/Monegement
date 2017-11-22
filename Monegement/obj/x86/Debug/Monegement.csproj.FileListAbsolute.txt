@@ -1,4 +1,3 @@
-c:\users\nathania\source\repos\Monegement\Monegement\obj\x86\Debug\Monegement.csprojResolveAssemblyReference.cache
 c:\users\nathania\source\repos\Monegement\Monegement\obj\x86\Debug\App.g.i.cs
 c:\users\nathania\source\repos\Monegement\Monegement\obj\x86\Debug\App.g.cs
 c:\users\nathania\source\repos\Monegement\Monegement\obj\x86\Debug\MainPage.g.i.cs
@@ -238,3 +237,19 @@ c:\users\nathania\source\repos\Monegement\Monegement\obj\x86\Debug\AddExpenseDia
 c:\users\nathania\source\repos\Monegement\Monegement\obj\x86\Debug\AddIncomeDialog.xbf
 c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\AddExpenseDialog.xbf
 c:\users\nathania\source\repos\Monegement\Monegement\bin\x86\Debug\AddIncomeDialog.xbf
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\LoginPage.g.i.cs
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\LoginPage.g.cs
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\LoginPage.xaml
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\LoginPage.xbf
+C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\LoginPage.xbf
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\Monegement.csprojResolveAssemblyReference.cache
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\AddWishListDialog.g.i.cs
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\AddWishListDialog.g.cs
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\SignInPage.g.i.cs
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\SignInPage.g.cs
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\AddWishListDialog.xaml
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\SignInPage.xaml
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\AddWishListDialog.xbf
+C:\Users\Nathania\source\repos\Monegement\Monegement\obj\x86\Debug\SignInPage.xbf
+C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\AddWishListDialog.xbf
+C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\SignInPage.xbf

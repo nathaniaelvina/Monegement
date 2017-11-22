@@ -1,10 +1,12 @@
-﻿using System;
+﻿using CrossPieCharts.UWP.PieCharts;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,9 +24,45 @@ namespace Monegement
     /// </summary>
     public sealed partial class chartPage : Page
     {
+        public List<PieChartArgs> PieChartCollection { get; set; }
+
         public chartPage()
         {
             this.InitializeComponent();
+            LoadChartContents();
+        }
+        public void LoadChartContents()
+        {
+
+            PieChartCollection = new List<PieChartArgs>
+            {
+                new PieChartArgs
+                {
+                    Percentage = 44,
+                    ColorBrush = new SolidColorBrush(Colors.LightBlue)
+
+                },
+                new PieChartArgs
+                {
+                    Percentage = 10,
+                    ColorBrush = new SolidColorBrush(Colors.LightYellow)
+                },
+                new PieChartArgs
+                {
+                    Percentage = 22,
+                    ColorBrush = new SolidColorBrush(Colors.LightGreen)
+                },
+                new PieChartArgs
+                {
+                    Percentage = 13,
+                    ColorBrush = new SolidColorBrush(Colors.LightPink)
+                },
+                new PieChartArgs
+                {
+                    Percentage = 11,
+                    ColorBrush = new SolidColorBrush(Colors.LightGoldenrodYellow)
+                }
+            };
         }
     }
 }

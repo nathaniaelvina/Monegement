@@ -24410,11 +24410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\nathania\\source\\repos\\Monegement\\Monegement\\Monegement.csproj",
+      "projectUniqueName": "C:\\Users\\Nathania\\source\\repos\\Monegement\\Monegement\\Monegement.csproj",
       "projectName": "Monegement",
-      "projectPath": "c:\\users\\nathania\\source\\repos\\Monegement\\Monegement\\Monegement.csproj",
+      "projectPath": "C:\\Users\\Nathania\\source\\repos\\Monegement\\Monegement\\Monegement.csproj",
       "packagesPath": "C:\\Users\\Nathania\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\nathania\\source\\repos\\Monegement\\Monegement\\obj\\",
+      "outputPath": "C:\\Users\\Nathania\\source\\repos\\Monegement\\Monegement\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

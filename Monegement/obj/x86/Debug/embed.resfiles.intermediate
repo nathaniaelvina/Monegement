@@ -1,7 +1,10 @@
 AddExpenseDialog.xbf
 AddIncomeDialog.xbf
+AddWishListDialog.xbf
 App.xbf
 chartPage.xbf
+LoginPage.xbf
 MainPage.xbf
+SignInPage.xbf
 transactionPage.xbf
 wishlistPage.xbf

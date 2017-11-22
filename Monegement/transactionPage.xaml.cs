@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -27,6 +28,7 @@ namespace Monegement
         {
             this.InitializeComponent();
             ObservableCollection<TransactionItem> dataList = new ObservableCollection<TransactionItem>();
+
             TransactionItem t1 = new TransactionItem() { type = "Income", category = "Entertainment", nominal = "30000", notes = "test food", transaction_date = "23-11-2017", id_user = "001" };
             TransactionItem t2 = new TransactionItem() { type = "Income", category = "Entertainment", nominal = "30000", notes = "test food", transaction_date = "23-11-2017", id_user = "001" };
             TransactionItem t3 = new TransactionItem() { type = "Income", category = "Entertainment", nominal = "30000", notes = "test food", transaction_date = "23-11-2017", id_user = "001" };
@@ -47,8 +49,10 @@ namespace Monegement
         private async void btnAddExpense_Click(object sender, RoutedEventArgs e)
         {
             AddExpenseDialog addExpense = new AddExpenseDialog();
-            await addExpense.ShowAsync();
+            var result = await addExpense.ShowAsync();
+            Debug.WriteLine(result.ToString());
 
         }
+
     }
 }

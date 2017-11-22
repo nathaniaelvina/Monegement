@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="TITLE"
+    Title="Add Income"
     PrimaryButtonText="Add"
     SecondaryButtonText="Cancel"
                                                          
@@ -24,17 +24,17 @@
             </Grid.RowDefinitions>
             <AppBarToggleButton Label="Salary" Grid.Column="0" Grid.Row="0"  HorizontalAlignment="Center">
                 <StackPanel Orientation="Vertical">
-                    <Image x:ConnectionId='3' x:Name="imgSalary" Source="Assets/salary.png" />
+                    <Image x:ConnectionId='5' x:Name="imgSalary" Source="Assets/salary.png" />
                 </StackPanel>
             </AppBarToggleButton>
             <AppBarToggleButton Label="Others" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center">
                 <StackPanel Orientation="Vertical">
-                    <Image x:ConnectionId='2' x:Name="imgJajan" Source="Assets/others.png"  />
+                    <Image x:ConnectionId='4' x:Name="imgJajan" Source="Assets/others.png"  />
                 </StackPanel>
             </AppBarToggleButton>
         </Grid>
-        <TextBox InputScope="Number" Margin="0 10" PlaceholderText="Amount"/>
-
+        <TextBox x:ConnectionId='2' x:Name="txtAmount" InputScope="Number" Margin="0 10" PlaceholderText="Amount"/>
+        <TextBox x:ConnectionId='3' x:Name="txtDescription" InputScope="Text" Margin="0 10" PlaceholderText="Description" AcceptsReturn="True" Height="60"/>
     </StackPanel>
 </ContentDialog>
 

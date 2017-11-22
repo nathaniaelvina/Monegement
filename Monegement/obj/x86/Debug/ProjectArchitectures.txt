@@ -1,1 +1,1 @@
-c:\users\nathania\source\repos\Monegement\Monegement\Monegement.csproj;x86
+C:\Users\Nathania\source\repos\Monegement\Monegement\Monegement.csproj;x86
