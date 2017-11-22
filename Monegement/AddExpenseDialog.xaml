@@ -1,0 +1,78 @@
+﻿<ContentDialog
+    x:Class="Monegement.AddExpenseDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Monegement"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="TITLE"
+    PrimaryButtonText="Add"
+    SecondaryButtonText="Cancel"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
+
+    <StackPanel Orientation="Vertical">
+        <DatePicker/>
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <AppBarToggleButton Label="Food" Grid.Column="0" Grid.Row="0"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgFood" Source="Assets/food.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Entertainment" Grid.Column="1" Grid.Row="0"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgEntertainment" Source="Assets/movie.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Transportation" Grid.Column="2" Grid.Row="0"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgTransportation" Source="Assets/transportation.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Gift" Grid.Column="0" Grid.Row="1"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgGift" Source="Assets/gift.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Sports" Grid.Column="1" Grid.Row="1"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgSport" Source="Assets/sports.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Fashion" Grid.Column="2" Grid.Row="1"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgFashion" Source="Assets/fashion.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Health" Grid.Column="0" Grid.Row="2"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgHospital" Source="Assets/hospital.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Monthly Shopping" Grid.Column="1" Grid.Row="2"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgShopping" Source="Assets/shopping.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+            <AppBarToggleButton Label="Others" Grid.Column="2" Grid.Row="2"  HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <Image x:Name="imgMore" Source="Assets/more.png" />
+                </StackPanel>
+            </AppBarToggleButton>
+
+        </Grid>
+        <TextBox x:Name="txtAmount" InputScope="Number" Margin="0 10" PlaceholderText="Amount"/>
+    </StackPanel>
+</ContentDialog>
