@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B46429CD084F85147D907285F84E8530623B65D7FAB711FAB5CE781942350C2C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>01EDF7F56D5DC5C2D624E0E8F3370BFD70E6744EED65402377F008AE54F1AC50</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>20f50b1f-e5ed-437c-a00a-6d12d8f266fb_1.0.0.0_x86__z49besjywt6sg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>20f50b1f-e5ed-437c-a00a-6d12d8f266fb_z49besjywt6sg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>20f50b1f-e5ed-437c-a00a-6d12d8f266fb</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-22T16:43:12.801</Modified>
+      <Modified>2017-11-24T15:09:59.532</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Monegement.exe">
       <PackagePath>entrypoint\Monegement.exe</PackagePath>
-      <Modified>2017-11-22T16:43:10.415</Modified>
+      <Modified>2017-11-24T15:09:54.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathania\.nuget\packages\CrossPieCharts.UWP\1.0.2\lib\uap\CrossPieCharts.ClassLibrary.dll">
       <PackagePath>CrossPieCharts.ClassLibrary.dll</PackagePath>
@@ -592,11 +592,11 @@
     <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-22T16:43:12.202</Modified>
+      <Modified>2017-11-24T15:09:58.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathania\source\repos\Monegement\Monegement\bin\x86\Debug\Core\Monegement.exe">
       <PackagePath>Monegement.exe</PackagePath>
-      <Modified>2017-11-22T16:43:12.791</Modified>
+      <Modified>2017-11-24T15:09:59.525</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

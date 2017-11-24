@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "UAP,Version=v10.0.10586": {
+    "UAP,Version=v10.0.10240": {
       "CrossPieCharts.UWP/1.0.2": {
         "type": "package",
         "compile": {
@@ -2213,7 +2213,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.10586/win10-arm": {
+    "UAP,Version=v10.0.10240/win10-arm": {
       "CrossPieCharts.UWP/1.0.2": {
         "type": "package",
         "compile": {
@@ -4508,7 +4508,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.10586/win10-arm-aot": {
+    "UAP,Version=v10.0.10240/win10-arm-aot": {
       "CrossPieCharts.UWP/1.0.2": {
         "type": "package",
         "compile": {
@@ -6839,7 +6839,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.10586/win10-x64": {
+    "UAP,Version=v10.0.10240/win10-x64": {
       "CrossPieCharts.UWP/1.0.2": {
         "type": "package",
         "compile": {
@@ -9143,7 +9143,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.10586/win10-x64-aot": {
+    "UAP,Version=v10.0.10240/win10-x64-aot": {
       "CrossPieCharts.UWP/1.0.2": {
         "type": "package",
         "compile": {
@@ -11483,7 +11483,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.10586/win10-x86": {
+    "UAP,Version=v10.0.10240/win10-x86": {
       "CrossPieCharts.UWP/1.0.2": {
         "type": "package",
         "compile": {
@@ -13787,7 +13787,7 @@
         }
       }
     },
-    "UAP,Version=v10.0.10586/win10-x86-aot": {
+    "UAP,Version=v10.0.10240/win10-x86-aot": {
       "CrossPieCharts.UWP/1.0.2": {
         "type": "package",
         "compile": {
@@ -24399,7 +24399,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "UAP,Version=v10.0.10586": [
+    "UAP,Version=v10.0.10240": [
       "CrossPieCharts.UWP >= 1.0.2",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.4.0"
     ]
@@ -24422,14 +24422,14 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "uap10.0.10586"
+        "uap10.0.10240"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "uap10.0.10586": {
+        "uap10.0.10240": {
           "projectReferences": {}
         }
       }
@@ -24445,7 +24445,7 @@
       }
     },
     "frameworks": {
-      "uap10.0.10586": {
+      "uap10.0.10240": {
         "dependencies": {
           "CrossPieCharts.UWP": {
             "target": "Package",
